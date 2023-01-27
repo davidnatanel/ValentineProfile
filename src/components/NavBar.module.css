@@ -1,0 +1,118 @@
+.NavContainer{
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    transition: all 1s ;
+}
+.NavContainer *{
+color: var(--colorletter);
+text-decoration: none;
+}
+
+
+.abajo{
+    background-color: rgba(255, 254, 254, 0);
+}
+
+.abajo .hidden1{
+    display: none;
+}
+.abajo .hidden2{
+    display: none;
+}
+.NavContainer:hover .hidden1{
+    display: flex;
+}
+
+.NavContainer:hover .hidden2{
+    display: flex;
+}
+
+.NavContainer:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.NavContainer div{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.NavContainer div p::first-letter{
+    font-size: 1.2em;
+    
+}
+.NavContainer ul{
+    
+    height: 100%;
+    list-style: none;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.NavContainer li{
+    border-bottom:var(--colorletter) solid 2px;
+    font-weight: 500;
+}
+
+.NavContainer li:hover{
+    border-bottom:rgb(168, 161, 161) solid 2px;
+    color:rgb(123, 119, 119);
+
+    cursor: pointer;
+}
+.select:hover{
+    cursor: pointer;
+}
+
+.select{
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 0.9em;
+
+outline: none;
+
+
+ }
+ .select option{
+    border: none;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 0.9em;
+
+
+ }
+@media (max-width: 450px) { 
+.NavContainer div{
+font-size: 0.9em;
+
+}
+.NavContainer li{
+font-size: 0.9em;
+
+                                
+
+}
+
+.NavContainer{
+    user-select: none;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+ }

@@ -1,0 +1,24 @@
+.container{
+    background-color: rgb(174, 133, 133);
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container ul{
+    color: rgb(247, 245, 245);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 100%;
+    align-items: center;
+    font-size: x-large;
+}
+.container a{
+    color: rgb(247, 245, 245);
+
+    text-decoration: none;
+    
+
+}

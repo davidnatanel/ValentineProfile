@@ -1,0 +1,66 @@
+.container{
+    height: auto;
+    width: 100%;
+ overflow: hidden;
+}
+.container h1{
+    text-align: center;
+    background-color: rgb(174, 133, 133);
+    color: antiquewhite;
+}
+.containergrid{
+    height: auto;
+    width: 100%;
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(218px, 1fr));
+    gap: 10px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+.containerimglogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+}
+.containerimglogo:hover {
+    filter: grayscale(100%);
+cursor: pointer;
+    
+}
+
+.containerimgtarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 250px;
+    
+}
+.containerimgtarjeta:hover {
+    filter: grayscale(100%);
+cursor: pointer;
+    
+}
+
+.containerimgilustraciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 250px;
+    
+}
+.containerimgilustraciones:hover {
+    filter: grayscale(50%);
+cursor: pointer;
+    
+}
+
+.container img{
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+.ContainerProjects{
+    background-color: red;
+    height: auto;
+   
+}
+.Containerimage{
+    background-color: rebeccapurple;
+    display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

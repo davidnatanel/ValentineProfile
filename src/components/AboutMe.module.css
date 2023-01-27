@@ -1,0 +1,92 @@
+
+.aboutme{
+    background-color: rgb(174, 133, 133);
+    display: flex;
+    height: 300px;
+    justify-content: space-around;
+    
+}
+
+.aboutme div:first-of-type{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: antiquewhite;
+}
+.aboutme div:first-of-type h2{
+    background-color: #c121c158;
+    padding: 10px;
+    border-radius: 10px;
+}
+.aboutme div:last-of-type{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: antiquewhite;
+
+    font-weight: bolder;
+    font-size: 1.2em;
+
+}
+
+.aboutme div:last-of-type p{
+   background-color: #c121c158;
+   padding: 20px;
+   padding-bottom: 50px;
+   padding-top: 50px;
+   border-radius: 10px;
+
+}
+
+.aboutme div:last-of-type p::first-letter{
+    font-size: xx-large;
+
+}
+.aboutme img{
+    width: 17vw;
+}
+
+@media (max-width: 750px) { 
+    .aboutme img{
+        width: 40vw;
+    }
+.aboutme{
+    padding-top: 10px;
+    display: flex;
+    height: auto;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.aboutme div:first-of-type{
+    width: 100%;
+}
+
+.aboutme div:last-of-type{
+    width: 100%;
+    font-size: 1em;
+}
+
+.aboutme div:last-of-type p{
+    background-color: #c121c158;
+    padding: 10px;
+   
+ }
+     }
+    
+  
+
+     .descargar{
+        text-decoration: none;
+        color: rgb(230, 190, 228);
+        padding: 3px;
+        border-radius: 10px;
+        font-size: large;
+        background-color: purple;
+
+     }
