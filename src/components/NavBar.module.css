@@ -115,4 +115,17 @@ font-size: 0.9em;
     align-items: center;
     flex-direction: column;
 }
+
+.abajo{
+    background-color: white;
+
+}
+
+.abajo .hidden1{
+    display: flex;
+}
+.abajo .hidden2{
+    display: flex;
+
+}
  }

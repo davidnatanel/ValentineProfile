@@ -12,7 +12,9 @@ const [plus,setPlus]=useState(true)
       {data.slice(0,plus == false ? data.length:4 ).map((e,i)=>{
         return(
             <div className={style[cssstyle]}>
-            <img  key={i} src={e}   onClick={()=>viewImage(e,i,type)} />
+              
+            <img  key={i}  loading="eager" src={e}   onClick={()=>viewImage(e,i,type)} />
+   
             </div>
             
         )
