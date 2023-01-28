@@ -17,7 +17,7 @@ const AboutMe =()=>{
 Corel Draw, Sketchup ,AutoCAD y Canva, Photoshop. Diseño publicitario , multimedia, packaging,
 logos de productos y empresas, ilustración digital, campañas publicitarias,
 carteles impresos y banners digitales.
-<a className={style.descargar} href="download/acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt">Descargar mi cv</a>
+<a className={style.descargar} href='./CVValentina.pdf' download='CVValentina.pdf' >Descargar mi cv</a>
   
 
 </p>
