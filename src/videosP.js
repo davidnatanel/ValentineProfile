@@ -7,7 +7,8 @@ import Logobebidas from './assets/video/Logobebidas.mp4'
 import melina from './assets/video/melina.mp4'
 import exposicion from './assets/video/exposicion.mp4'
 import zaburger from './assets/video/zaburger.mp4'
-import tarjetadigital7 from './assets/video/tarjetadigital7.MOV'
+import chetos from './assets/video/chetos.mp4'
+
 import cumpleR from './assets/video/cumpleR.MP4'
 import cursos from './assets/video/cursos.MOV'
 
@@ -23,7 +24,7 @@ import cursos from './assets/video/cursos.MOV'
     Logobebidas,
     melina,
     exposicion,
-    zaburger,
-    tarjetadigital7,
+    zaburger,chetos
+   
 ]
 export default videosP;
